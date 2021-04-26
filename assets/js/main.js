@@ -27,3 +27,23 @@ switch (userEmail) {
         alert("Non possiedi le credenziali necessarie.")
         break;
 }
+
+//Gioco dei dadi
+//Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+
+var userNumber = Math.floor(Math.random() * 7);
+console.log(userNumber);
+
+var computerNumber = Math.floor(Math.random() * 7); 
+console.log(computerNumber);
+
+//Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+if (computerNumber > userNumber) {
+    alert("Ha vinto il computer!")
+} else alert("Complimenti! Hai vinto!")
+
+
+
+//Prima di partire a scrivere codice poniamoci qualche domanda: Che ci sia un array da qualche parte? Se dobbiamo confrontare qualcosa che "cosa" ci serve?
+
