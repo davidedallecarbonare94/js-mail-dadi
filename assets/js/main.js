@@ -9,19 +9,19 @@ switch (userEmail) {
         alert("Complimenti! Ora puoi accedere al sito!")
         break;
     case registeredEmails[1]:
-            alert("Complimenti! Ora puoi accedere al sito!")
+        alert("Complimenti! Ora puoi accedere al sito!")
         break;
     case registeredEmails[2]:
-            alert("Complimenti! Ora puoi accedere al sito!")
+        alert("Complimenti! Ora puoi accedere al sito!")
         break;
     case registeredEmails[3]:
-            alert("Complimenti! Ora puoi accedere al sito!")
+        alert("Complimenti! Ora puoi accedere al sito!")
         break;
     case registeredEmails[4]:
-            alert("Complimenti! Ora puoi accedere al sito!")
+        alert("Complimenti! Ora puoi accedere al sito!")
         break;
     case registeredEmails[5]:
-            alert("Complimenti! Ora puoi accedere al sito!")
+        alert("Complimenti! Ora puoi accedere al sito!")
             break;
     default:
         alert("Non possiedi le credenziali necessarie.")
@@ -41,7 +41,10 @@ console.log(computerNumber);
 
 if (computerNumber > userNumber) {
     alert("Ha vinto il computer!")
-} else alert("Complimenti! Hai vinto!")
+} else if (computerNumber == userNumber) {
+    alert("Parità! Ritenta un'altra volta!")
+} else 
+    alert("Complimenti! Hai vinto!")
 
 
 
