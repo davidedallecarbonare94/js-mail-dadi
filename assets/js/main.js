@@ -6,7 +6,7 @@ document.getElementById("myresult").innerHTML = userNumber;
 
 var computerNumber = Math.floor(Math.random() * 7); 
 document.getElementById("pcresult").innerHTML = computerNumber;
-
+//N.B: meglio usare il math.ceil perchè in questo caso viene compreso anche il 0, e 0 arrotondato per essesso da 1
 
 //Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
@@ -17,5 +17,7 @@ if (computerNumber > userNumber) {
 } else 
     document.getElementById("winner").innerHTML = "Complimenti! Hai vinto!"
 
-//Prima di partire a scrivere codice poniamoci qualche domanda: Che ci sia un array da qualche parte? Se dobbiamo confrontare qualcosa che "cosa" ci serve?
+
+//correzione
+
 
